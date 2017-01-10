@@ -1,19 +1,14 @@
-<img alt="Logo" src="http://coderslab.pl/wp-content/themes/coderslab/svg/logo-coderslab.svg" width="400">
-
-# React
-> Kilka ważnych informacji
-
-Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
-
-## Jak zacząć?
+# React &ndash; zadania &ndash; podstawy i JSX
+## Jak rozwiązywać zadania?
 
 Wykonaj następujące kroki:
 
-1. Stwórz [**fork**][forking] z repozytorium z zadaniami.
+1. Stwórz [**fork**][forking] repozytorium z zadaniami.
 2. [**Sklonuj**][ref-clone] repozytorium na swój komputer.
 3. Rozwiąż zadania i [**skomituj**][ref-commit] zmiany do swojego repozytorium.
-4. [**Wypchnij**][ref-push] zmiany na swoje repozytorium na GitHubie.
-5. [Stwórz **pull request**][pull-request] do oryginalnego repozytorium, gdy skończysz wszystkie ćwiczenia.
+4. [**Wypchnij**][ref-push] zmiany do swojego repozytorium na GitHubie.
+5. Stwórz [**pull request**][pull-request] do oryginalnego repozytorium, gdy skończysz wszystkie zadania.
+
 
 
 Pamiętaj o dodawaniu komentarzy z numerem zadania, np.:
@@ -26,7 +21,6 @@ Pamiętaj o dodawaniu komentarzy z numerem zadania, np.:
 { Kod do zadania 2 }
 
 ...
-
 ```
 
 <!-- Links -->
