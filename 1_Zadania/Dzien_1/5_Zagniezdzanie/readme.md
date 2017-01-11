@@ -40,7 +40,7 @@ Przerób zadanie 2 z wyrażeń tak, aby powstała następująca struktura:
 
 Za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```, w którym będzie się wyświetlał tytuł, imię, nazwisko oraz wiek tej osoby według struktury podanej powyżej. Nazwy tych właściwości obiektu znajdziesz w importowanym pliku. 
 
-### Zadanie 2 (~ 10min - 15min)
+### Zadanie 2 (~ 15min - 20min)
 
 W pliku `js/zadanie00_02.js` znajduje się tablica z obiektami reprezentującymi osobę. Zaimportuj ją do pliku `js/app.jsx` np. za pomocą:
 
@@ -59,7 +59,9 @@ Przerób zadanie z wykładowcą w taki sposób, żeby powstała następująca st
  
  Powyższy kod jest jedynie podglądowy. **Pamiętaj w jaki sposób powinna być przekazywana nazwa klasy CSS w tagach JSX oraz o odpowiednich zamknięciach znaczników.**
  
+ Nazwy tych właściwości obiektu znajdziesz w importowanym pliku. 
+ 
  Efektem powinny być elementy podobne do tego:
  ![Zadanie 2 screen](img/zadanie02_screen.png "Zadanie 2 screen")
 
-Następnie za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```, w którym będzie się wyświetlały wszystkie wygenerowane elementy ```div```. Nazwy tych właściwości obiektu znajdziesz w importowanym pliku. 
+Następnie za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```, w którym będą się wyświetlały wszystkie wygenerowane elementy ```div```.
