@@ -25,7 +25,7 @@ Następnie za pomocą React wyrenderuj w elemencie o id ```app``` element ```img
 
 Za pomocą ```prompt()``` zapytaj użytkownika o kolor ramki i przechowaj odpowiedź w zmiennej.
 
-Sprawdź, czy odpowiedź to `red`, `green` lub `blue` (możesz wykorzystać metody ```.find()``` tablicy), jeżeli nie to wyrenderuj wyrenderuj w elemencie o id ```app``` element ```div``` z napisem `Nieprawidłowy kolor`.
+Sprawdź, czy odpowiedź to `red`, `green` lub `blue` (możesz wykorzystać metodę ```.find()``` tablicy), jeżeli nie to wyrenderuj w elemencie o id ```app``` element ```div``` z napisem `Nieprawidłowy kolor`.
 
 Jeżeli podany kolor był poprawny to za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```, ze stylami ustawionymi na:
 - Szerokość: 100px,
@@ -42,7 +42,7 @@ Jeżeli podany kolor był poprawny to za pomocą React wyrenderuj w elemencie o 
 > ```JavaScript
 > entry: "./js/zadanie01.jsx",
 > ```
-> Odpowiedzi do tego zadania wpisuj do pliku ```js/zadanie01.jsx```.
+> **Odpowiedzi do tego zadania wpisuj do pliku ```js/zadanie01.jsx```.**
 
 Ustaw wszystkim trzem divom wysokość na ```100px```, a dla każdego ustaw kolor tła odpowiadający jego nazwie. **Pamiętaj o użyciu odpowiedniej nazwy stylu**.
  
@@ -54,13 +54,13 @@ Ustaw wszystkim trzem divom wysokość na ```100px```, a dla każdego ustaw kolo
 > ```JavaScript
 > entry: "./js/zadanie02.jsx",
 > ```
-> Odpowiedzi do tego zadania wpisuj do pliku ```js/zadanie02.jsx```.
+> **Odpowiedzi do tego zadania wpisuj do pliku ```js/zadanie02.jsx```.**
 
 W pliku ```js/zadanie02.jsx``` znajduje się funkcja ```genNumber()```, która generuje pseudolosowe liczby z zakresu 1-10. Za jej pomocą wygeneruj liczbę A i liczbę B.
 
 Następnie za pomocą funkcji ```prompt()``` zapytaj użytkownika jaki jest wynik dodawania tych dwóch liczb.
 
-Za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```. Jeżeli odpowiedź użytkownika była poprawna to w nowoutworznym elemencie ```div``` wyświetl informację `Odpowiedź poprawna` i ustaw styl tła na zielony. Jeżeli odpowiedź była niepoprawna to element ```div``` ma zawierdź informację `Odpowiedź błędna` oraz ma mieć styl tła czerwony.
+Za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```. Jeżeli odpowiedź użytkownika była poprawna to w nowoutworznym elemencie ```div``` wyświetl informację `Odpowiedź poprawna` i ustaw styl tła na zielony. Jeżeli odpowiedź była niepoprawna to element ```div``` ma zawierać informację `Odpowiedź błędna` oraz ma mieć styl tła czerwony.
 
  Spróbuj wykonać to zadanie na kilka sposobów:
  - Zapisując w dwóch zmiennych tekst i kolor tła;
