@@ -1,3 +1,8 @@
 .idea
 *~
 0.example
+.gitignore
+index.html
+js/
+readme.md
+style/
