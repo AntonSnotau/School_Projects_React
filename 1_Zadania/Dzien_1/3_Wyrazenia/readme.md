@@ -1,4 +1,4 @@
-# Przygotowanie React &ndash; zadania
+# Wyrażenia &ndash; zadania
 
 ### Przygotowanie
 
@@ -25,7 +25,7 @@ Następnie za pomocą React wyrenderuj w elemencie o id ```app``` element ```div
 
 ### Zadanie 1 (~ 5min - 10min)
 
-Za pomocą ```propmpt(text)``` przyjmij rok urodzenia użytkownika. Odpowiedź przechowuj w zmiennej. Nie zapomnij o użyciu ```parseInt(str)```, aby zmienić wartość typu string w zmienną typu number.
+Za pomocą ```prompt()``` przyjmij rok urodzenia użytkownika. Odpowiedź przechowuj w zmiennej. Nie zapomnij o użyciu ```parseInt(str)```, aby zmienić wartość typu string w zmienną typu number.
 
 Następnie za pomocą metody ```(new Date()).getFullYear()``` pobierz aktualny rok.
 
@@ -43,7 +43,7 @@ Następnie za pomocą React wyrenderuj w elemencie o id ```app``` element ```div
 
 Stwórz prosty kalkulator, który liczy wynik dodawania, odejmowania, mnożenia lub dzielenia.
 
-Zmmodyfikuj zadanie z wykładowcą w ten sposób, aby wyświetlać jeszcze jeden ```prompt(text)```, który ma pobierać jeden ze znaków: `+`, `-`, `*` lub `/` - odpowiada on operacjom matematycznym jakie zostaną wykonane dla licz A i B.
+Zmmodyfikuj zadanie z wykładowcą w ten sposób, aby wyświetlać jeszcze jeden ```prompt()```, który ma pobierać jeden ze znaków: `+`, `-`, `*` lub `/` - odpowiada on operacjom matematycznym jakie zostaną wykonane dla licz A i B.
  
  Zadanie wykonaj w ten sposób, aby w zależności od operacji był renderowany inny element: dla dodwania element `h1`, dla odejmowania element `h2`, dla mnożenie element `h3`, a dla dzielenia element `h4`. Operacje matematyczne wykonuj bezpośrednio w wyrażeniu w danym tagu JSX.
 
@@ -65,6 +65,6 @@ Przyda Ci się właściwość ```length``` oraz metoda ```join(separator)``` tab
 
 ### Zadanie 6 (~ 5min - 10min)
 
-Przyjmij za pomocą ```prompt(text)``` informację o wieku użytkownika.
+Przyjmij za pomocą ```prompt()``` informację o wieku użytkownika.
 
 Jeżeli wiek będzie poniżej 18 lat to wyświetl element ```div``` o id `youth`, w przeciwnym wypadku element ```div``` o id `adult`.
