@@ -3,19 +3,37 @@
 # React - Snippety
 > Krótkie kawałki kodu, które pokazują zależności, rozwiązują popularne problemy oraz pokazują jak używać niektórych funkcji.
 
-#### 1. xxxxx
-```JavaScript```
-function Animal(type) {
-    this.type = type;
+#### 1. Kompletny kod aplikacji z postami podzielony na komponenty
+```JSX
+class User extends React.Component {
+    render() {
+        return <div className="user">
+            <img src={this.props.user.avatar}/>
+            <strong>{this.props.user.name}</strong>
+        </div>;
+    }
 }
 
-Animal.prototype.sayVoice = function(voice) {
-    console.log(voice)
+class Post extends React.Component {
+    render() {
+        return <div className="post">
+            <h1>{this.props.post.title}</h1>
+            <p>{this.props.post.body}</p>
+        </div>;
+    }
 }
 
-var lion = new Animal('lion');
-lion.sayVoice("roar");
+class App extends React.Component{
+    render() {
+    return <div>
+        <User user={ this.props.post.author }/>
+        <Post post={ this.props.post }/>
+    </div>;
+    }
+}
 
-var pigeon = new Animal('pigeon');
-pigeon.sayVoice("gru gru");
+ReactDOM.render(
+	<App post={post} />,
+	document.getElementById('app')
+);
 ```

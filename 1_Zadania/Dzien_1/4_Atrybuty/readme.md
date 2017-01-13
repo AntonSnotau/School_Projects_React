@@ -46,7 +46,7 @@ Jeżeli podany kolor był poprawny to za pomocą React wyrenderuj w elemencie o 
 
 Ustaw wszystkim trzem divom wysokość na ```100px```, a dla każdego ustaw kolor tła odpowiadający jego nazwie. **Pamiętaj o użyciu odpowiedniej nazwy stylu**.
  
- Spróbuj wykonać zadanie z pomocznicą zmienną, a następnie skrótowym zapisem bezpośrednio w tagu JSX.
+Spróbuj wykonać zadanie z pomocznicą zmienną (po jednej dla każdego z div-ów), a następnie skrótowym zapisem bezpośrednio w każdym tagu JSX.
 
 ### Zadanie 2 (~ 15min - 20min)
 
@@ -58,7 +58,7 @@ Ustaw wszystkim trzem divom wysokość na ```100px```, a dla każdego ustaw kolo
 
 W pliku ```js/zadanie02.jsx``` znajduje się funkcja ```genNumber()```, która generuje pseudolosowe liczby z zakresu 1-10. Za jej pomocą wygeneruj liczbę A i liczbę B.
 
-Następnie za pomocą funkcji ```prompt()``` zapytaj użytkownika jaki jest wynik dodawania tych dwóch liczb.
+Następnie za pomocą funkcji ```prompt()``` zapytaj użytkownika jaki jest wynik dodawania tych dwóch liczb. **Wyświetl w komunikacie prompt-a obie liczy, żeby użytkownik miał szansę je zobaczyć.**
 
 Za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```. Jeżeli odpowiedź użytkownika była poprawna to w nowoutworznym elemencie ```div``` wyświetl informację `Odpowiedź poprawna` i ustaw styl tła na zielony. Jeżeli odpowiedź była niepoprawna to element ```div``` ma zawierać informację `Odpowiedź błędna` oraz ma mieć styl tła czerwony.
 
