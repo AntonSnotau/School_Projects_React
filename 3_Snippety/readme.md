@@ -64,7 +64,7 @@ class Counter extends React.Component{
 }
 ```
 
-#### 2. Aplikacja ToTo
+#### 3. Aplikacja ToTo
 ```JSX
 class ToDoItem extends React.Component{
         handleDoneClick = () => {
