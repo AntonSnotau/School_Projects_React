@@ -37,3 +37,84 @@ ReactDOM.render(
 	document.getElementById('app')
 );
 ```
+
+#### 2. Przykładowy komponent ze stanem wewnętrznym oraz obsługą zdarzeń cyklu życia
+```JSX
+class Counter extends React.Component{
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            seconds: 0
+        };
+    }
+    componentDidMount(){
+        this.intervalId = setInterval(() => {
+            this.setState({
+                seconds: this.state.seconds + 1
+            });
+        }, 1000);
+    }
+    componentWillUnmount(){
+        clearInterval(this.intervalId);
+    }
+    render(){
+        return <h1>Jesteś tu {this.state.seconds} s.</h1>;
+    }
+}
+```
+
+#### 2. Aplikacja ToTo
+```JSX
+class ToDoItem extends React.Component{
+        handleDoneClick = () => {
+            //Pamiętaj o sprawdzeniu czy
+            //atrybut istnieje i można go wywołać!
+            if ( typeof this.props.onDone === 'function' ){
+                this.props.onDone(this.props.title);
+            }
+        }
+        render(){
+            return <li><span>{this.props.title}</span>
+                <button
+                    onClick={this.handleDoneClick}
+                >Zakończ</button></li>;
+        }
+    }
+
+    class ToDoList extends React.Component{
+        constructor(props){
+            super(props);
+            this.state = {
+                items: this.props.items
+            };
+        }
+        handleItemDone = (title) => {
+            const newItems = this.state.items.filter(item => {
+                return item !== title;
+            });
+            this.setState({
+                items: newItems
+            });
+        };
+        render(){
+            const items = this.state.items.map(item => {
+                return <ToDoItem
+                    title={item}
+                    onDone={this.handleItemDone}
+                />
+            });
+            return <ul>
+                {items}
+            </ul>;
+        }
+    }
+
+    const items = ['Kupić bułki','Ugotować rosół',
+        'Zrobić prezentację ze zdarzeń'];
+
+    ReactDOM.render(
+        <ToDoList items={items} />,
+        document.getElementById('app')
+    );
+```
