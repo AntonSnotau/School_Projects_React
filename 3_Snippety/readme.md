@@ -187,6 +187,7 @@ ReactDOM.render(
 class FormExample extends React.Component {
     constructor(props) {
         super(props);
+		//Początkowa wartość inputa ustawiona na '':
         this.state = {name: ''};
     }
     handleNameChange = (event) => {
@@ -213,6 +214,45 @@ class FormExample extends React.Component {
 
 ReactDOM.render(
     <FormExample />,
+    document.getElementById('app')
+);
+```
+
+#### 6. Przykład elementu select - formularze
+```JSX
+class SelectExample extends React.Component {
+    constructor(props) {
+        super(props);
+        //Początkowa wartość selecta ustawiona na 'mrs':
+        this.state = {title: 'mrs'};
+    }
+    handleTitleChange = (event) => {
+        this.setState({title: event.target.value});
+    };
+    handleSubmit = (event) => {
+        event.preventDefault();
+        console.log('Your title is '
+            + this.state.title);
+    };
+    render(){
+        return <form onSubmit={this.handleSubmit}>
+            <label>
+                Title:
+                <select
+                    value={this.state.title}
+                    onChange={this.handleTitleChange}>
+                    <option value="ms">Ms</option>
+                    <option value="mrs" checked>Mrs</option>
+                    <option value="mr">Mr</option>
+                </select>
+            </label>
+            <input type="submit" value="Submit" />
+        </form>;
+    }
+}
+
+ReactDOM.render(
+    <SelectExample />,
     document.getElementById('app')
 );
 ```
