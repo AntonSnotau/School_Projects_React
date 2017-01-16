@@ -202,7 +202,7 @@ class FormExample extends React.Component {
             <label>
                 Name:
                 <input type="text"
-                       value={this.state.value}
+                       value={this.state.name}
                        onChange={this.handleNameChange}
                 />
             </label>
