@@ -192,11 +192,11 @@ class FormExample extends React.Component {
     handleNameChange = (event) => {
         this.setState({name: event.target.name});
     };
-    handleSubmit(event) {
+    handleSubmit = (event) => {
         event.preventDefault();
         console.log('Your name is '
             + this.state.name);
-    }
+    };
     render(){
         return <form onSubmit={this.handleSubmit}>
             <label>
