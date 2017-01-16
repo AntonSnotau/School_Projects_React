@@ -146,7 +146,6 @@ class BulbOff extends React.Component{
 }
 
 class Bulb extends React.Component {
-    //...
     constructor(props){
         super(props);
 
@@ -158,7 +157,6 @@ class Bulb extends React.Component {
     handleTurnOnClick = () => {
         this.setState({bulbOn:true});
     }
-    //...
     render() {
         let bulb;
         if (this.state.bulbOn){
@@ -180,6 +178,41 @@ class Bulb extends React.Component {
 
 ReactDOM.render(
     <Bulb />,
+    document.getElementById('app')
+);
+```
+
+#### 5. Przykład kontrolowanego komponentu - formularze
+```JSX
+class FormExample extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {name: ''};
+    }
+    handleNameChange = (event) => {
+        this.setState({name: event.target.name});
+    };
+    handleSubmit(event) {
+        event.preventDefault();
+        console.log('Your name is '
+            + this.state.name);
+    }
+    render(){
+        return <form onSubmit={this.handleSubmit}>
+            <label>
+                Name:
+                <input type="text"
+                       value={this.state.value}
+                       onChange={this.handleNameChange}
+                />
+            </label>
+            <input type="submit" value="Submit" />
+        </form>;
+    }
+}
+
+ReactDOM.render(
+    <FormExample />,
     document.getElementById('app')
 );
 ```
