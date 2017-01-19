@@ -1,4 +1,4 @@
-# Zagnieżdżanie &ndash; zadania
+# props &ndash; zadania
 
 ### Przygotowanie
 
@@ -63,7 +63,7 @@ Wyrenderuj go na stronie podając w atrybucie do props przykładową liczbę pol
 
 Zmodyfikuj komponent `Menu` z poprzedniego działu. Niech przyjmuje on w `props` tablicę obiektów z pozycjami menu (`menu`).
 
-Obiekty mają być w jakiej formie:
+Obiekty mają być w takiej formie:
 
 ```JavaScript
 {

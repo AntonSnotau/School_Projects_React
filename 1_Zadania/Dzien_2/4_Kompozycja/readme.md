@@ -1,4 +1,4 @@
-# Zagnieżdżanie &ndash; zadania
+# Kompozycja &ndash; zadania
 
 ### Przygotowanie
 
@@ -48,9 +48,9 @@ Wyrenderuj na stronie komponent `ShopItem` podając w atrybutach do props przyk�
 
 Wykorzystaj zadanie zrobione z wykładowcą.
 
-Stwórz komponent o nazwie `ShopList`. Niech przyjmuje on w `props` tablicę obiektów z elementami kosztyka.
+Stwórz komponent o nazwie `ShopList`. Niech przyjmuje on w `props` tablicę obiektów z elementami koszyka.
                                       
-Obiekty mają być w jakiej formie:
+Obiekty mają być w takiej formie:
 
 ```JavaScript
 {
@@ -59,7 +59,7 @@ Obiekty mają być w jakiej formie:
 }
 ```
 
-Powinien on wyświetlać w divie o klasie CSS `shopitems` wyrenderować same komponenty `ShopItemHeader` z odpowiednimi danymi. Wykorzystaj `array.map()`.
+Powinien on wyświetlać w divie o klasie CSS `shopitems` same komponenty `ShopItemHeader` z odpowiednimi danymi. Wykorzystaj `array.map()`.
 
 Wyrenderuj go na stronie podając w atrybucie do props następujący atrybut `menu`:
 ```JavaScript
@@ -84,63 +84,15 @@ Wyrenderuj go na stronie podając w atrybucie do props następujący atrybut `me
 
 ### Zadanie 2 (~ 10min - 15min)
 
-Stwórz komponent o nazwie `Sum`. Do `props` przekazuje się mu tablicę liczb (`numbers`).
+> Aby wykonać to zadanie, zmień ustawienie w webpack.config.js dla ```entry```, aby wyglądało w ten sposób:
+> ```JavaScript
+> entry: "./js/zadanie02.jsx",
+> ```
+> **Odpowiedzi do tego zadania wpisuj do pliku ```js/zadanie02.jsx```.**
 
-Powinien on wyświetlać w elemencie `h1` sumę wwszystkich podanych liczb. Możesz do tego wykorzystać znany Ci `array.reduce()`.
+W pliku `js/zadanie02.jsx` jest stworzony komponent Chat. Podziel go według tego schematu:
 
-Wyrenderuj go na stronie podając w atrybucie do props przykładową tablicę liczb.
-
-**Zadanie wykonaj w dwóch wersjach:**
-- **Najpierw komponentem w wersji funkcyjnej**
-- **Oraz tym samym komponentem w wersji zbudowanej z klasy ES6**
-
-### Zadanie 3 (~ 10min)
-
-Zmodyfikuj komponent `LikeBox` z poprzedniego działu. Niech przyjmuje w `props` początkową liczbę polubień (`likes`).
-
-Wyrenderuj go na stronie podając w atrybucie do props przykładową liczbę polubień.
-
-**Zadanie wykonaj w dwóch wersjach:**
-- **Najpierw komponentem w wersji funkcyjnej**
-- **Oraz tym samym komponentem w wersji zbudowanej z klasy ES6**
-
-### Zadanie 4 (~ 10min - 20min)
-
-Zmodyfikuj komponent `Menu` z poprzedniego działu. Niech przyjmuje on w `props` tablicę obiektów z pozycjami menu (`menu`).
-
-Obiekty mają być w jakiej formie:
-
-```JavaScript
-{
-    url     :   'adres_odnośnika'
-    text    :   'tekst linku'
-}
-```
-
-Używając `array.map()` stwóz z tych obiektów elementy `li`, które będą w głównym elemencie `ul`.
-
-Wyrenderuj go na stronie podając w atrybucie do props następujący atrybut `menu`:
-```JavaScript
-[
-    {
-        urL     :   '/',
-        text    :   'Strona główna'
-    },
-    {
-        urL     :   '/blog',
-        text    :   'Blog'
-    },
-    {
-        urL     :   '/pricing',
-        text    :   'Cennik'
-    },
-    {
-        urL     :   '/contact',
-        text    :   'Kontakt'
-    }
-]
-```
-
+ ![Schemat dla zadania 2](img/zadanie02.png "Schemat dla zadania 2")
 
 **Zadanie wykonaj w dwóch wersjach:**
 - **Najpierw komponentem w wersji funkcyjnej**

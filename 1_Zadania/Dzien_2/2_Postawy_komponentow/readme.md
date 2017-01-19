@@ -1,4 +1,4 @@
-# Zagnieżdżanie &ndash; zadania
+# Podstawy komponentów &ndash; zadania
 
 ### Przygotowanie
 
