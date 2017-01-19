@@ -19,7 +19,7 @@ Zainstalujcie wspólnie i przetestujcie narzędzia deweloperskie Reacta.
 
 ### Zadanie 1 (~ 10min)
 
-Przejrzyj rozwiązanie zadań z poprzednich działó dzisiejszego dnia. Uruchom je w React Developer Tools - zobacz w jakis sposób jest wyświetlana struktura Twoich komponentów i elementów.
+Przejrzyj rozwiązanie zadań z poprzednich działów dzisiejszego dnia. Uruchom je w React Developer Tools - zobacz w jaki sposób jest wyświetlana struktura Twoich komponentów i elementów.
 
 ### Zadanie 2 (~ 20min - 25min)
 
@@ -58,7 +58,7 @@ Wyrenderuj swój komponent rachunku z tymi zaimportowanymi danymi.
 
 ### Zadanie 3 (~ 10min - 15min)
 
-Jeżeli jeszcze nie masz tego zrobionego, to podziel komponent z zadania 2, tak by skłądał się z komponentów:
+Jeżeli jeszcze nie masz tego zrobionego, to podziel komponent z zadania 2, tak by składał się z komponentów:
 - ReceiptHeader
 - ReceiptItems
 - ReceiptItem
