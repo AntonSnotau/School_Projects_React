@@ -24,7 +24,7 @@ Pierwszy - **`ClockTime`** - przyjmuje przez props datę (`date`) i wyświetla s
 
 Drugi - **`ClockDate`** - przyjmuje przez props datę (`date`) i wyświetla samą datę w elemencie `h1` za pomocą `Date.toLocaleDateString()`.
 
-Głóny komponent - `Clock` renderuje odpowiednio dwa subkomponenty przekazując im aktualną datę ze swojego state.
+Główny komponent - `Clock` renderuje odpowiednio dwa subkomponenty przekazując im aktualną datę ze swojego state.
 
 Zrenderuj swój komponent.
 
