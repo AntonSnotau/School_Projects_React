@@ -15,7 +15,7 @@
 
 Stwórz komponent z 3 przyciskami z napisem "Klik!".
 
-Po kliknięciu na pierwszy przycisk wyświetl w konsolu "Pierwszy przycisk kliknięty".
+Po kliknięciu na pierwszy przycisk wyświetl w konsoli "Pierwszy przycisk kliknięty".
 
 Po kliknięciu na drugi przycisk zmień tekst, który znajduje się na przyciskach na "Click!".
 
@@ -132,7 +132,7 @@ Wyrenderuj i przetestuj swój komponent, używając takiej konstrukcji:
 
 ### Zadanie 7 (~ 20min - 25min)
 
-> To zadanie pozwoli Ci stworyć prostą grę matematyczną.
+> To zadanie pozwoli Ci stworzyć prostą grę matematyczną.
 > Będzie Ci potrzebne kilka rzeczy w celu wykonania zadania.
 > Losowanie dowolnego elementu z tablicy:
 > ```JavaScript
