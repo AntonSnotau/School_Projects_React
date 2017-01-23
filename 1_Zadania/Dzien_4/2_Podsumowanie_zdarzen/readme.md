@@ -158,7 +158,7 @@ Wyrenderuj i przetestuj swój komponent, używając takiej konstrukcji:
 
 Stwórz komponent `MathQuestionGame`.
 
-Na początku wylosuj jedno z działań: **dodawanie, odejmowanie lub mnożenie**. Wylosuj również **dwie liczby**. Wykonaj wylosowane działanie matematyczne pomiędzy dwoma wylosowanymi liczbami, przechowaj wynik.
+Na początku wylosuj jedno z działań: **dodawanie, odejmowanie lub mnożenie**. Wylosuj również **dwie liczby całkowite z przedziału 1-10**. Wykonaj wylosowane działanie matematyczne pomiędzy dwoma wylosowanymi liczbami, przechowaj wynik.
 
 Wygeneruj 4 przyciski, w tym 3 z losowymi liczbami **innymi niż poprawny wynik** (możesz użyć np. pętli while by upewnić się, że wysolowany nie zostanie poprawny wynik) oraz 1 przycisk z poprawną odpowiedzią. Przyciski przechowuj w formie tablicy, którą następnie przetasujesz (zob. wyżej funkcję shuffle) i wyrenderujesz w komponencie.
 
