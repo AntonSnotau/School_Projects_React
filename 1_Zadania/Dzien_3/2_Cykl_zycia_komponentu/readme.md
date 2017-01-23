@@ -40,6 +40,6 @@ Wyrenderuj swój komponent bezpośrednio korzystając z `ReactDOM.render()`, ust
 
 Dodaj timer (poza komponentami), który po 5 sekundach używając `ReactDOM.render()` znów stworzy Twój komponent, jednak tym razem z `text` ustawionym na "Test 2".
 
-Spójrz do konsoli. Jakie metody cuklu życia zostały uruchomione, dlaczego?
+Spójrz do konsoli. Jakie metody cyklu życia zostały uruchomione, dlaczego?
 
 **Tym razem nie twórz głównego komponentu `App`.**
