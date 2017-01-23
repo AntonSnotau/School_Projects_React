@@ -34,7 +34,7 @@ Zajrzyj do konsoli. Które metody cyklu życia zostały wywołane, dlaczego? Wid
 
 Stwórz komponent `TextTyper`. Przyjmuje on przez props wartość `text`.
 
-Komponent ma wyrenderować pierwszą literę tego napisu w elemencie `h1`. Pamiętaj, aby do przechowywania znaków, któe mają być wyświetlone skorzystać ze **state**.
+Komponent ma wyrenderować pierwszą literę tego napisu w elemencie `h1`. Pamiętaj, aby do przechowywania znaków, które mają być wyświetlone skorzystać ze **state**.
 
 Dodaj timer lub interval do swojego komponentu, który sprawi, że co 1 sekundę pojawi się w elemencie `h1` coraz więcej liter (co sekundę 1==kolejny znak). **Pamiętaj, aby zrobić to w odpowiedniej metodzie cyklu życia, pamiętaj aby zwolnić zasoby.**
 
