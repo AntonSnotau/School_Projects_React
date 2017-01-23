@@ -73,12 +73,12 @@ Postaraj się zastosować to zasady **DRY (don't repeat yourself, nie powtarzaj 
 
 Stwórz komponent `StrobeLight`. Przyjmuje on przez props dwie wartości: kolor światła (`color`) oraz częstotliwość mrugania w ms (`frequency`).
 
-Komponent ma wyrenderować element `div`, z następującymi stylami:
+Komponent ma wyrenderować pusty element `div`, z następującymi stylami:
 - Szerokość: 500px,
 - Wysokość: 50px,
 - Kolor tła: biały.
 
-Dodaj timer lub interval do swojego komponentu, który sprawi, że co ilość ms określoną w props `frequency` będzie się zmieniać kolor naprzemiennie:
+Dodaj timer lub interval do swojego komponentu, który sprawi, że co ilość ms określoną w props `frequency` będzie się zmieniać kolor tła naprzemiennie:
 - Jeżeli wcześniej był kolor biały na kolor z `props`,
 - W przeciwnym wypadku na kolor biały.
 

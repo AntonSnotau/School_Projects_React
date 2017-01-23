@@ -54,7 +54,7 @@ Spraw, żeby komponent `StrobeLight` przyjmował jeszcze jeden atrybut przez pro
 
 Jeżeli `onOff` ustawiony jest na `false` to przeciwdziała zmianie światła.
 
-Komponent `StrobeControl` powinien renderować kilka przykładowych `StrobeLight` z `onOff` ustawionym na `true`.
+Stwórz komponent `StrobeControl`, który powinien renderować kilka przykładowych `StrobeLight` z `onOff` ustawionym na `true`.
 
 Niech w `StrobeControl` zostanie ustawiony timer, który po 5 sekundach ustawi wszystkim swoim `StrobeLight` wartość `onOff` na `false`. **Pamiętaj, aby zrobić to w odpowiedniej metodzie cyklu życia, pamiętaj aby zwolnić zasoby.** Skorzystaj ze state do przechowania wartości jaka ma być przekazywana subkomponentom.
 
