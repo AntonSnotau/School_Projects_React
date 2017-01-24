@@ -55,7 +55,7 @@ Wyrenderuj i przetestuj swój komponent.
 
 Stwórz komponent `SpeedClickGame`. Ma on przyjmować czas do odliczania w ms przez props `time` i przechowywać go w stanie lokalnym.
 
-Komponent składa się z przycisku, elementu `h1` i elementu `h2` w elemencie `div`. W elemencie `h1` wyświetlaj aktualny czas, w `h2` będzie przechowywana liczba punktów (póki co 0).
+Komponent składa się z przycisku z napisem "Click me!", elementu `h1` i elementu `h2` w elemencie `div`. W elemencie `h1` wyświetlaj aktualny czas, w `h2` będzie przechowywana liczba punktów (póki co 0).
 
 Uruchom interval lub timer wykonywany co 50ms. **Pamiętaj, aby zrobić to w odpowiedniej metodzie cyklu życia, pamiętaj aby zwolnić zasoby.** W funkcji timera / intervala zmniejszaj aktualny czas o 50ms i sprawdzaj czy czas się nie skończył. Jeżeli czas się skończył to zablokuj przycisk (`disabled={true}`).
 
@@ -115,22 +115,7 @@ Wyrenderuj i przetestuj swój komponent.
 
 PS. <https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/>
 
-### Zadanie 6 (~ 10min - 15min)
-
-Stwórz komponent `ShowMore`. Działa on tak, że wyświetla link `a` z napisem "Pokaż więcej".
-
-Po kliknięciu na element `a`, znika on, a zamiast niego pojawia się treść. Treścią są dzieci tego komponentu.
-
-Wyrenderuj i przetestuj swój komponent, używając takiej konstrukcji:
-```JSX
-<ShowMore>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis enim eget iaculis fermentum. Nulla facilisi. Morbi auctor quis leo ut efficitur. Duis a nulla sed nunc vestibulum condimentum ac vitae lorem. Vestibulum at ornare lacus, in euismod diam. Fusce varius, justo convallis varius elementum, quam felis molestie purus, accumsan imperdiet lacus nulla sed nunc. Suspendisse efficitur risus vel ante pharetra cursus.</p>
-</ShowMore>
-```
-
-**Pamiętaj, aby zbudować jeszcze główny komponent `App`, a w nim wykorzystywać komponenty budowane w ćwiczeniach. Renderuj na stronie główny komponent `App`.**
-
-### Zadanie 7 (~ 20min - 25min)
+### Zadanie 6 (~ 20min - 25min)
 
 > To zadanie pozwoli Ci stworzyć prostą grę matematyczną.
 > Będzie Ci potrzebne kilka rzeczy w celu wykonania zadania.

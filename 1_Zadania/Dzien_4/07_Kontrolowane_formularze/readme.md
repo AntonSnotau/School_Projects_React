@@ -58,6 +58,8 @@ Wyrenderuj i przetestuj swój komponent. Zauważ jak state się łączy i jaki j
 
 ### Zadanie 3 (~ 25min - 35min)
 
+To zadanie pozwoli Ci stworzyć kolejną minigrę matematyczną.
+
 Stwórz komponent `MathAnswersGame`.
 
 Na początku wylosuj **dwie liczby całkowite z przedziału 1-10**. Wykonaj dodawanie pomiędzy dwoma wylosowanymi liczbami, przechowaj wynik.
@@ -86,44 +88,44 @@ Wyrenderuj i przetestuj swój komponent.
 
 **Pamiętaj, aby zbudować jeszcze główny komponent `App`, a w nim wykorzystywać komponenty budowane w ćwiczeniach. Renderuj na stronie główny komponent `App`.**
 
-### Zadanie 4 (~ 25min - 35min)
+### Zadanie 4 (~ 30min - 40min)
 
 To zadanie pozwoli Ci stworzyć własną listę rzeczy do zrobienia.
 
-Stwórz komponent `ToDoList`.
+Stwórz komponent `ToDoList`. Przechowuje on w swoim state listę rzeczy do zrobienia, jako tablicę obiektów w takiej formie:
+```JavaScript
+[
+    {
+        name: 'Element do zrobienia',
+        done: false
+    },
+    //...
+]
+```
 
-Oto przykładowa struktura komponentu:
+Oto przykładowa struktura komponentu (przykład, HTML):
 ```HTML
-<div>
-     <div id="myDIV" class="header">
-      <h2>My To Do List</h2>
-      <input type="text" id="myInput" placeholder="Title...">
-      <span onclick="newElement()" class="addBtn">Add</span>
+<div class="toDoList">
+    <div class="header">
+        <h2>Lista rzeczy do zrobienia</h2>
+        <input type="text">
+        <button class="addBtn">Dodaj</button>
     </div>
-    
-    <ul id="myUL">
-      <li>Hit the gym</li>
-      <li class="checked">Pay bills</li>
-      <li>Meet George</li>
-      <li>Buy eggs</li>
-      <li>Read a book</li>
-      <li>Organize office</li>
+
+    <ul>
+        <li>Kupić mleko</li>
+        <li class="checked">Zrobić prezentację</li>
     </ul>
 </div>
 ```
 
-Na początku wylosuj **dwie liczby całkowite z przedziału 1-10**. Wykonaj dodawanie pomiędzy dwoma wylosowanymi liczbami, przechowaj wynik.
+Po wpisaniu do elementu `input` dowolnego tekstu i kliknięciu na przycisk "Dodaj", powinna się zaktualizować wewnętrzna tablica z rzeczami do zrobienia. Wstaw wtedy nowy obiekt na jej końcu, ustawiając `done` na `false`. W praktyce wymaga to pobrania tablicy ze state, stworzenia jej kopii, tam dodania obiektu i zaktualizowania state z całą nową tablicą. Po dodaniu wyczyść `input` (po prostu ręcznie ustawiając stan powiązany z `input` na pusty string).
 
-Wyświetl dodawane liczby oraz `input type="number"`.
+Pamiętaj, żeby `input` był komponentem kontrolowanym.
 
-Gra wyświetlać się ma w takiej strukturze (przykład):
+Po kliknięciu na dowolny element `li` z listy, należy przeszukać tablicę i znaleźć ten element, a następnie zmienić mu `done` na odwrotny. Jeżeli element był oznaczony jako skończony, to ma nie być skończony, a jeżeli był nieskończony, to ma być skończony.
 
-
-Gracz ma mieć 3 sekund na udzielenie prawidłowej odpowiedzi. Uruchom timer. **Pamiętaj, aby zrobić to w odpowiedniej metodzie cyklu życia, pamiętaj aby zwolnić zasoby.**
-
-Po upłynięciu czasu sprawdź, czy wynik podany przez gracza jest prawidłowy. Zasady:
-- Jeżeli wynik jest prawidłowy to dodajesz punkt graczowi, generujesz nowe liczby i uruchamiasz ponownie timer (zauważ, że najlepiej zrobić do tego osobną metodę pomoczniczą, żebyś nie musiał powtarzać kodu);
-- Jeżeli wynik jest nieprawidłowy (lub gracz nie zdążył wpisać wyników - to będzie ten sam warunek), to zablokuj `input` i wyświetl w `h1` napis "Koniec gry".
+Podczas renderowania nadawaj klasę CSS `checked` elementom `li`, które są oznaczone jako zakończone. Pamiętaj o odpowiednich kluczach dla elementów listy.
 
 Wyrenderuj i przetestuj swój komponent.
 
