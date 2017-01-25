@@ -7,7 +7,9 @@
 > Pamiętaj o:
 > - ```npm init```
 > - Zainstalowaniu odpowiednich modułów
-> - Ustawieniu Webpacka, plikiem wejściowym ma być `js/app.jsx`, wyjściowym `js/out.js`
+> - Ustawieniu Webpacka, pierwszym plikiem wejściowym ma być `js/zadanie00.jsx` (potem z kolejnymi numerami zadań), wyjściowym zawsze `js/out.js`
+>
+> **Pamiętaj, żeby podczas wykonywania zadań modyfikować odpowiednio plik _webpack.config.js_, aby wskazywać plik nad któym obecnie pracujesz w _entry_.**
 
 ## Zadania rozwiązywane z wykładowcą
 
@@ -38,23 +40,11 @@ Jeżeli podany kolor był poprawny to za pomocą React wyrenderuj w elemencie o 
 
 ### Zadanie 1 (~ 10min)
 
-> Aby wykonać to zadanie, zmień ustawienie w webpack.config.js dla ```entry```, aby wyglądało w ten sposób:
-> ```JavaScript
-> entry: "./js/zadanie01.jsx",
-> ```
-> **Odpowiedzi do tego zadania wpisuj do pliku ```js/zadanie01.jsx```.**
-
 Ustaw wszystkim trzem divom wysokość na ```100px```, a dla każdego ustaw kolor tła odpowiadający jego nazwie. **Pamiętaj o użyciu odpowiedniej nazwy stylu**.
  
 Spróbuj wykonać zadanie z pomocznicą zmienną (po jednej dla każdego z div-ów), a następnie skrótowym zapisem bezpośrednio w każdym tagu JSX.
 
 ### Zadanie 2 (~ 15min - 20min)
-
-> Aby wykonać to zadanie, zmień ustawienie w webpack.config.js dla ```entry```, aby wyglądało w ten sposób:
-> ```JavaScript
-> entry: "./js/zadanie02.jsx",
-> ```
-> **Odpowiedzi do tego zadania wpisuj do pliku ```js/zadanie02.jsx```.**
 
 W pliku ```js/zadanie02.jsx``` znajduje się funkcja ```genNumber()```, która generuje pseudolosowe liczby z zakresu 1-10. Za jej pomocą wygeneruj liczbę A i liczbę B.
 

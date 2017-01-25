@@ -7,7 +7,9 @@
 > Pamiętaj o:
 > - ```npm init```
 > - Zainstalowaniu odpowiednich modułów
-> - Ustawieniu Webpacka, plikiem wejściowym ma być `js/app.jsx`, wyjściowym `js/out.js`
+> - Ustawieniu Webpacka, pierwszym plikiem wejściowym ma być `js/zadanie00.jsx` potem z kolejnymi numerami zadań, wyjściowym zawsze `js/out.js`
+>
+> **Pamiętaj, żeby podczas wykonywania zadań modyfikować odpowiednio plik _webpack.config.js_, aby wskazywać plik nad którym obecnie pracujesz w _entry_.**
 
 ## Zadanie rozwiązywane z wykładowcą
 
@@ -83,12 +85,6 @@ Wyrenderuj go na stronie podając w atrybucie do props następujący atrybut `me
 **Zadanie wykonaj tylko komponentami w wersji zbudowanej z klas ES6**
 
 ### Zadanie 2 (~ 10min - 15min)
-
-> Aby wykonać to zadanie, zmień ustawienie w webpack.config.js dla ```entry```, aby wyglądało w ten sposób:
-> ```JavaScript
-> entry: "./js/zadanie02.jsx",
-> ```
-> **Odpowiedzi do tego zadania wpisuj do pliku ```js/zadanie02.jsx```.**
 
 W pliku `js/zadanie02.jsx` jest stworzony komponent Chat. Podziel go według tego schematu:
 

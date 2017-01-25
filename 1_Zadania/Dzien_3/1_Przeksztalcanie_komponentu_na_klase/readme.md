@@ -7,17 +7,13 @@
 > Pamiętaj o:
 > - ```npm init```
 > - Zainstalowaniu odpowiednich modułów
-> - Ustawieniu Webpacka, plikiem wejściowym ma być `js/app.jsx`, wyjściowym `js/out.js`
+> - Ustawieniu Webpacka, pierwszym plikiem wejściowym ma być `js/zadanie00.jsx` potem z kolejnymi numerami zadań, wyjściowym zawsze `js/out.js`
+>
+> **Pamiętaj, żeby podczas wykonywania zadań modyfikować odpowiednio plik _webpack.config.js_, aby wskazywać plik nad którym obecnie pracujesz w _entry_.**
 
 ## Zadanie rozwiązywane z wykładowcą
 
 ### Przekstałcanie  (~ 10min - 15min)
-
-> Aby wykonać to zadanie, zmień ustawienie w webpack.config.js dla ```entry```, aby wyglądało w ten sposób:
-> ```JavaScript
-> entry: "./js/zadanie00.jsx",
-> ```
-> **Odpowiedzi do tego zadania wpisuj do pliku ```js/zadanie00.jsx```.**
 
 W pliku `js/zadanie00.jsx` znajduje się komponent `AddNumbers` służący do dodawania dwóch liczb.
 
@@ -26,12 +22,6 @@ Jest on napisany w sposób funkcyjny. Przepisz go oraz komponent `App` na dział
 ## Zadania do samodzielnego wykonania
 
 ### Zadanie 1 (~ 10min - 15min)
-
-> Aby wykonać to zadanie, zmień ustawienie w webpack.config.js dla ```entry```, aby wyglądało w ten sposób:
-> ```JavaScript
-> entry: "./js/zadanie01.jsx",
-> ```
-> **Odpowiedzi do tego zadania wpisuj do pliku ```js/zadanie01.jsx```.**
 
 W pliku `js/zadanie01.jsx` znajduje się komponent `CurrencyConverter` służący do konwersji walut.
 
