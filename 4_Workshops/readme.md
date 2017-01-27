@@ -8,8 +8,6 @@
 > - ```npm init```
 > - Zainstalowaniu odpowiednich modułów
 > - Ustawieniu Webpacka, plikiem wejściowym ma być `js/app.jsx`, wyjściowym `js/out.js`
->
-> **Pamiętaj, żeby podczas wykonywania zadań modyfikować odpowiednio plik _webpack.config.js_, aby wskazywać plik nad którym obecnie pracujesz w _entry_.**
 
 ## Piłkarska baza danych
 
@@ -88,7 +86,7 @@ Całą reszta ekranu to treść aplikacji - różna w zależności od wyboru na 
 
 Aby pobrać listę zawodów wykonaj zapytanie na adres API:
 
-> ```http://api.football-data.org/v1/competitions```
+> <http://api.football-data.org/v1/competitions>
 
 Otrzymasz tablicę wszystkich zawódów dla których są informacje.
 
