@@ -256,3 +256,65 @@ ReactDOM.render(
     document.getElementById('app')
 );
 ```
+
+#### 7. Podstawowy routing - przykład ze slajdów
+```JSX
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { Router,
+    Route,
+    Link,
+    IndexRoute,
+    hashHistory } from 'react-router';
+
+class Template extends React.Component {
+    render() {
+        return <div>
+            <h1>App</h1>
+            <ul>
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                <li>
+                    <Link to="/contact">Contact</Link>
+                </li>
+            </ul>
+            {this.props.children}
+        </div>;
+    }
+}
+
+class Main extends React.Component {
+    render() {
+        return <h1>Hello, World!</h1>;
+    }
+}
+
+class Contact extends React.Component {
+    render() {
+        return <h1>Contact us at
+            contact@example.com</h1>;
+    }
+}
+
+class NotFound extends React.Component {
+    render() {
+        return <h1>404,
+            Nothing is here</h1>;
+    }
+}
+
+class App extends React.Component {
+    render() {
+        return <Router history={hashHistory}>
+            <Route path='/' component={Template}>
+                <IndexRoute component={Main} />
+                <Route path='/contact' component={Contact} />
+                <Route path='*' component={NotFound} />
+            </Route>
+        </Router>;
+    }
+}
+
+ReactDOM.render(<App />, document.getElementById('app'));
+```
