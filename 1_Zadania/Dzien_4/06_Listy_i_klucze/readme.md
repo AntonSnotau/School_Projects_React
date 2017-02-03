@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -21,7 +21,7 @@ W pliku `js/zadanie00.js` znajduje się tablica osób. Zajrzyj do pliku lub po j
 
 ```import people from './zadanie00';```
 
-Komponent ma wyświetlić element `ul`, a w nim listę osób elementami `li`, w których tekstem będzie imię i nazwisko osoby. **Pamiętaj o wybraniu odpowiedniego klucza.**
+Komponent ma wyświetlić element `ul`, a w nim listę osób z elementami `li`, w których tekstem będzie imię i nazwisko osoby. **Pamiętaj o wybraniu odpowiedniego klucza.**
 
 Wyrenderuj i przetestuj swój komponent. Spójrz do konsoli i upewnij się, że nie ma żadnych błędów.
 
@@ -37,7 +37,7 @@ W pliku `js/zadanie01.js` znajduje się tablica osób. Zajrzyj do pliku lub po j
 
 ```import people from './zadanie01';```
 
-Komponent ma wyświetlić element `div`, w nim element `ul`, a w nim listę osób elementami `li`, w których tekstem będzie imię i nazwisko osoby. **Pamiętaj o wybraniu odpowiedniego klucza.**
+Komponent ma wyświetlić element `div`, w nim element `ul`, a w nim listę osób z elementami `li`, w których tekstem będzie imię i nazwisko osoby. **Pamiętaj o wybraniu odpowiedniego klucza.**
 
 Stwórz również w elemencie `div` przycisk `button`, który odwraca tablicę z osobami (przechowuj ją więc w state). Użyj do tego metody ```array.reverse()```.
 
@@ -51,7 +51,7 @@ Stwórz komponent `Invites`.
 
 Komponent ma zawierać `ul` z listą osób (na początku pustą) oraz przycisk `Nowy`. **Pamiętaj o wybraniu odpowiedniego klucza.**
 
-Po kliknięciu na przycisk ma się pojawić odpowiedzi `prompt()` z prośbą o podanie imienia i nazwiska. Jeżeli jeszcze taka osoba nie istnieje na liście to zostaje dodana **na jej początku**.
+Po kliknięciu na przycisk ma się pojawić `prompt()` z prośbą o podanie imienia i nazwiska. Jeżeli jeszcze taka osoba nie istnieje na liście to zostaje dodana **na jej początku**.
 
 Wyrenderuj i przetestuj swój komponent. Spójrz do React Developer Tools i sprawdź, czy w odpowiedni sposób są uaktualniane elementy Twojego komponentu (powinien zmieniać się tylko ten dodawany, nie kolejne).
 
@@ -59,7 +59,7 @@ Wyrenderuj i przetestuj swój komponent. Spójrz do React Developer Tools i spra
 
 ### Zadanie 3 (~ 15min)
 
-> Do wykonania tego zadania będziesz potrzebować przekazywać w evencie pewną własną unikalną informację.
+> Do wykonania tego zadania będziesz potrzebował/a przekazywać w evencie pewną własną unikalną informację.
 > Wystarczy zrobić to w wyrażeniu JSX bezpośrednio podczas tworzenia elementu. 
 > Zobacz na przykładzie jak możesz to zrobić:
 > ```JSX
