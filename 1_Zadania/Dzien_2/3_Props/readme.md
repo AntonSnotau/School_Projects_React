@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -43,7 +43,7 @@ Wyrenderuj go na stronie podając w atrybutach do props przykładowe liczby.
 
 Stwórz komponent o nazwie `Sum`. Do `props` przekazuje się mu tablicę liczb (`numbers`).
 
-Powinien on wyświetlać w elemencie `h1` sumę wwszystkich podanych liczb. Możesz do tego wykorzystać znany Ci `array.reduce()`.
+Powinien on wyświetlać w elemencie `h1` sumę wszystkich podanych liczb. Możesz do tego wykorzystać znany Ci `array.reduce()`.
 
 Wyrenderuj go na stronie podając w atrybucie do props przykładową tablicę liczb.
 
@@ -74,7 +74,7 @@ Obiekty mają być w takiej formie:
 }
 ```
 
-Używając `array.map()` stwóz z tych obiektów elementy `li`, które będą w głównym elemencie `ul`.
+Używając `array.map()` stwórz z tych obiektów elementy `li`, które będą w głównym elemencie `ul`.
 
 Wyrenderuj go na stronie podając w atrybucie do props następujący atrybut `menu`:
 ```JavaScript
