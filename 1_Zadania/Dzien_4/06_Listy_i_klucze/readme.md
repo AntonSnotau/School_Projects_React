@@ -68,7 +68,7 @@ Wyrenderuj i przetestuj swój komponent. Spójrz do React Developer Tools i spra
 > });
 > ```
 
-Stwórz komponent `Swtich`. Ma on przyjmować w props liczbę `count`.
+Stwórz komponent `Switch`. Ma on przyjmować w props liczbę `count`.
 
 Następnie stwórz taką ilość elementów `li` jaka jest liczba `count`. **Pamiętaj o wybraniu odpowiedniego klucza.** W elementach `li` mają znajdować się elementy `button` z tekstem ustawionym na kolejny numer: 1, 2, 3 itd.
 
