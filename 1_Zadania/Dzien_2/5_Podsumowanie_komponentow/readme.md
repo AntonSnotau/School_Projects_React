@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -56,7 +56,7 @@ Wyrenderuj swój komponent rachunku z tymi zaimportowanymi danymi.
 
 **Pamiętaj, aby zbudować jeszcze główny komponent `App`, a w nim wykorzystywać komponenty budowane w ćwiczeniach. Renderuj na stronie główny komponent `App`.**
 
-**Zadanie wykonaj tylko komponentami w wersji zbudowanej z klas ES6 lub w wersji funkcyjnej (do wyboru)**
+**Zadanie wykonaj z komponentami w wersji zbudowanej z klas ES6 lub w wersji funkcyjnej (do wyboru)**
 
 ### Zadanie 3 (~ 10min - 15min)
 

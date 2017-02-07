@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -36,7 +36,7 @@ Następnie korzystając **bezpośrednio wewnątrz JSX** z **operatora trójargum
 - Liczba pierwsza (nie pojawia się jeżeli to nieprawda),
 - Potęga liczby 2 (nie pojawia się jeżeli to nieprawda),
 
-Wyświetl tą informację w jednym ciągu, np.:
+Wyświetl tę informację w jednym ciągu, np.:
 "7, nieparzysta, liczba pierwsza,".
 
 Wyrenderuj i przetestuj swój komponent kilka razy dla atrybutu `number`:

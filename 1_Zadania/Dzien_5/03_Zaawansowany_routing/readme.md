@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -41,6 +41,6 @@ Wyrenderuj i przetestuj swoją aplikację, sprawdź ścieżki i ich wygląd.
 Stwórz aplikację React, w której znajduje się następujący routing:
 - `/` - ścieżka główna, ma wyświetlać listę wszystkich linków services, dokładnie: `/services/www`, `/services/shop`, `/services/seo`;
 - `/services/:service` - ścieżka renderuje komponent `ServiceInfo`, w którym jest `h1` z napisem "Proponujemy usługę: {service}", gdzie `{service}` to nazwa tego co poda się w parametrze URL. Poprawne parametry `service` to: `www`, `shop` lub `seo`. Sprawdź to, jeżeli wpisano co innego - wyświetl tylko link do strony głównej;
-- Jeżeli ktoś poda nieprawdiłową ścieżkę, to również wyświetla się link do strony głównej.
+- Jeżeli ktoś poda nieprawidłową ścieżkę, to również wyświetla się link do strony głównej.
 
 Wyrenderuj i przetestuj swoją aplikację, sprawdź ścieżki. Sprawdź również co się stanie gdy podasz nieprawidłowy odnośnik (wpisanie `/brak` lub `/services/niepoprawny` powinno skutkować wyświetleniem linku do strony głównej).

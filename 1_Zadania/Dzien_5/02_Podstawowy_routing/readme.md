@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -22,7 +22,7 @@ Stwórz aplikację React, w której znajduje się następujący routing:
 
 Wszystkie ścieżki korzystają z szablonu głównego, który zawiera w `div` element `h1` z napisem "Aplikacja React z React Router" i treść renderowaną przez dzieci.
  
-Dodatkowo, ścieżki zaczynające się od `/about` mają dodatkowy, własny szablon, który zawiera w `div` element `h2` z napisem "O nas" i treść renderowaną przez dzieci.
+Dodatkowo, ścieżki zaczynające się od `/about` mają dodatkowy, własny szablon, który zawiera `div` element `h2` z napisem "O nas" i treść renderowaną przez dzieci.
 
 Wyrenderuj i przetestuj swoją aplikację, sprawdź ścieżki.
 

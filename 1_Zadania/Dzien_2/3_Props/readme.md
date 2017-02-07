@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -29,7 +29,7 @@ Wyrenderuj go na stronie podając w atrybutach do props swoje dane.
 
 ### Zadanie 1 (~ 10min)
 
-Stwórz komponent o nazwie `AddNumbers`. Do `props` przekazuje się mu liczbę A (`numberA`) oraz liczbę B (`numberB`).
+Stwórz komponent o nazwie `AddNumbers`. Do `props` przekazuje mu się liczbę A (`numberA`) oraz liczbę B (`numberB`).
 
 Powinien on wyświetlać w elemencie `h1` sumę tych dwóch liczb.
 
@@ -41,15 +41,15 @@ Wyrenderuj go na stronie podając w atrybutach do props przykładowe liczby.
 
 ### Zadanie 2 (~ 10min - 15min)
 
-Stwórz komponent o nazwie `Sum`. Do `props` przekazuje się mu tablicę liczb (`numbers`).
+Stwórz komponent o nazwie `Sum`. Do `props` przekazuje mu się tablicę liczb (`numbers`).
 
-Powinien on wyświetlać w elemencie `h1` sumę wwszystkich podanych liczb. Możesz do tego wykorzystać znany Ci `array.reduce()`.
+Powinien on wyświetlać w elemencie `h1` sumę wszystkich podanych liczb. Możesz do tego wykorzystać znany Ci `array.reduce()`.
 
 Wyrenderuj go na stronie podając w atrybucie do props przykładową tablicę liczb.
 
 **Zadanie wykonaj w dwóch wersjach:**
-- **Najpierw komponentem w wersji funkcyjnej**
-- **Oraz tym samym komponentem w wersji zbudowanej z klasy ES6**
+- **Najpierw z komponentem w wersji funkcyjnej**
+- **Oraz z tym samym komponentem w wersji zbudowanej z klasy ES6**
 
 ### Zadanie 3 (~ 10min)
 
@@ -74,7 +74,7 @@ Obiekty mają być w takiej formie:
 }
 ```
 
-Używając `array.map()` stwóz z tych obiektów elementy `li`, które będą w głównym elemencie `ul`.
+Używając `array.map()` stwórz z tych obiektów elementy `li`, które będą w głównym elemencie `ul`.
 
 Wyrenderuj go na stronie podając w atrybucie do props następujący atrybut `menu`:
 ```JavaScript
@@ -100,5 +100,5 @@ Wyrenderuj go na stronie podając w atrybucie do props następujący atrybut `me
 
 
 **Zadanie wykonaj w dwóch wersjach:**
-- **Najpierw komponentem w wersji funkcyjnej**
-- **Oraz tym samym komponentem w wersji zbudowanej z klasy ES6**
+- **Najpierw z komponentem w wersji funkcyjnej**
+- **Oraz z tym samym komponentem w wersji zbudowanej z klasy ES6**

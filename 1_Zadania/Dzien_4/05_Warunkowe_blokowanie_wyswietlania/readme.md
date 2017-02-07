@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -48,7 +48,7 @@ Wywołanie to potrwa kilka sekund, następnie zostanie wywołana funkcja `callba
  
  Dopóki w `data` jest `false` zablokuj renderowanie komponentu.
  
- Jeżeli posiadasz dane do wygeneruj otrzymane dane w formie tabeli 3 kolumny na 12 wierszy.
+ Jeżeli posiadasz dane to wygeneruj otrzymane dane w formie tabeli 3 kolumny na 12 wierszy.
 
 Wyrenderuj i przetestuj swój komponent.
 

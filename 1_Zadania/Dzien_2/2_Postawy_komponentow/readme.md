@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -33,7 +33,7 @@ Stwórz komponent o nazwie `LikeBox`.
 
 Powinien on składać się z licznika polubień oraz przycisku do kliknięcia, że użytkownikowi podoba się dana treść.
 
-Póki co komponent ten nie ma nic robić. Wyrenderuj go na stronie.
+Póki co, komponent ten ma nic więcej nie robić. Wyrenderuj go na stronie.
 
 **Zadanie wykonaj w dwóch wersjach:**
 - **Najpierw komponentem w wersji funkcyjnej**

@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -17,7 +17,7 @@
 
 Stwórz komponent `HelloName`.
 
-Ma wyświetlać element `div`, a w nim `input type="text"` oraz `h1`. W `h1` ma się wyświetlać "Hello, {name}". `{name}` na być na żywo tym, co wpisał użytkownik, a domyślnie ma to być "Ty".
+Ma wyświetlać element `div`, a w nim `input type="text"` oraz `h1`. W `h1` ma się wyświetlać "Hello, {name}". `{name}` ma być na żywo tym, co wpisał użytkownik, a domyślnie ma to być "Ty".
 
 Pamiętaj, żeby `input` był komponentem kontrolowanym.
 
@@ -47,7 +47,7 @@ Stwórz komponent `InteractiveDiv`.
 
 Ma renderować `div`, a w nim `input type="`**`number`**`"` oraz wewnętrzny `div`. Ten wewnętrzny `div` ma mieć następujące style:
 - Wysokość: 100px,
-- Wysokość: z elementu `input` `+'px'`,
+- Szerokość: z elementu `input` `+'px'`,
 - Kolor tła: czerwony.
 
 Zmienijąc wartość inputa powinna się zmieniać automatycznie szerokość wewnętrznego elementu `div`, pamiętaj o konwersji na typ `Number`.
@@ -80,7 +80,7 @@ Gra wyświetlać się ma w takiej strukturze (przykład):
 </div>
 ```
 
-Gracz ma mieć 3 sekund na udzielenie prawidłowej odpowiedzi. Uruchom timer. **Pamiętaj, aby zrobić to w odpowiedniej metodzie cyklu życia, pamiętaj aby zwolnić zasoby.**
+Gracz ma mieć 3 sekundy na udzielenie prawidłowej odpowiedzi. Uruchom timer. **Pamiętaj, aby zrobić to w odpowiedniej metodzie cyklu życia, pamiętaj aby zwolnić zasoby.**
 
 Po upłynięciu czasu sprawdź, czy wynik podany przez gracza jest prawidłowy. Zasady:
 - Jeżeli wynik jest prawidłowy to dodajesz punkt graczowi, generujesz nowe liczby i uruchamiasz ponownie timer (zauważ, że najlepiej zrobić do tego osobną metodę pomoczniczą, żebyś nie musiał powtarzać kodu);

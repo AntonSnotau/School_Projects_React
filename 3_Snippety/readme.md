@@ -242,7 +242,7 @@ class SelectExample extends React.Component {
                     value={this.state.title}
                     onChange={this.handleTitleChange}>
                     <option value="ms">Ms</option>
-                    <option value="mrs" checked>Mrs</option>
+                    <option value="mrs">Mrs</option>
                     <option value="mr">Mr</option>
                 </select>
             </label>

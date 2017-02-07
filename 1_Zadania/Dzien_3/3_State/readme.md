@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -80,8 +80,8 @@ Komponent ma wyrenderować pusty element `div`, z następującymi stylami:
 - Wysokość: 50px,
 - Kolor tła: biały.
 
-Dodaj timer lub interval do swojego komponentu, który sprawi, że co ilość ms określoną w props `frequency` będzie się zmieniać kolor tła naprzemiennie:
-- Jeżeli wcześniej był kolor biały na kolor z `props`,
+Dodaj timer lub interval do swojego komponentu, który sprawi, że co określoną (w props) ilość ms `frequency` będzie się zmieniać kolor tła naprzemiennie:
+- Jeżeli wcześniej był kolor biały - na kolor z `props`,
 - W przeciwnym wypadku na kolor biały.
 
 Zrenderuj swój komponent kilka razy, z przykładowymi danymi i ciesz się własnym światłem stroboskopowym :)

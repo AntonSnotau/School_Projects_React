@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -12,7 +12,7 @@
 > **Pamiętaj, żeby podczas wykonywania zadań modyfikować odpowiednio plik _webpack.config.js_, aby wskazywać plik nad którym obecnie pracujesz w _entry_.**
 
 
-**Od teraz wszystkie zadania wykonuj tylko komponentami w wersji zbudowanej z klas ES6** 
+**Od teraz wszystkie zadania wykonuj tylko z komponentami w wersji zbudowanej z klas ES6** 
 
 ## Zadanie rozwiązywane z wykładowcą
 
@@ -36,7 +36,7 @@ Stwórz komponent `LifeCyclesTester`.
 
 Komponent ma wypisywać w konsoli, że np. "komponent będzie zamontowany", "komponent został zamontowany", "komponent będzie aktualizowany" itp., dla **wszystkich znanych Ci typów metod cyklu życia**.
 
-Komponent ma przyjmować do `prop` tekst do wyświetlenia (`text`). Ma go wyrenderować w elemencie `h1`.
+Komponent ma przyjmować do `props` tekst do wyświetlenia (`text`). Ma go wyrenderować w elemencie `h1`.
 
 Wyrenderuj swój komponent bezpośrednio korzystając z `ReactDOM.render()`, ustawiając Twojemu komponentowi `text` na "Test 1".
 

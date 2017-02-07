@@ -17,7 +17,7 @@
 
 Stwórz komponent `ButtonCounter` oraz komponent `ButtonToClick`.
 
-`ButtonToClick` zawiera `div` oraz przycisk `button`, po kliknięciu którego przesyła odpowiednią informację do callbacku, który pobiera z props pod nazwą `onClick`. **Nie zapomnić sprawdzić czy ten atrybut został odpowiednio przekazany i jest funkcją.**
+`ButtonToClick` zawiera `div` oraz przycisk `button`, po kliknięciu którego przesyła odpowiednią informację do callbacku, który pobiera z props pod nazwą `onClick`. **Nie zapomnij sprawdzić czy ten atrybut został odpowiednio przekazany i jest funkcją.**
 
 `BtnCounter` wyświetla `div`, a w nim `h1` oraz 3 przyciski `ButtonToClick`. W `h1` początkowo wyświetla 0, ma tam wyświetlać łącznie ile razy zostały kliknięte przyciski.
 
@@ -31,7 +31,7 @@ Wyrenderuj i przetestuj swój komponent.
 
 Stwórz komponent `Shop` oraz komponent `ShopItem`.
  
- `ShopItem` zawiera `div`, a w nim `h1`, którego zawartość jest pobierana z props `title`. W `div` znajduje się też przycisk z napisaem "Kup", po jego kliknięciu przesyła się odpowiednią informację do callbacku, który pobiera z props pod nazwą `onBuy`.  **Nie zapomnić sprawdzić czy ten atrybut został odpowiednio przekazany i jest funkcją.** Wywołanie cllbacku ma się odbyć a argumentem pobieranym z tytułu przekazanego w props (`title`).
+ `ShopItem` zawiera `div`, a w nim `h1`, którego zawartość jest pobierana z props `title`. W `div` znajduje się też przycisk z napisem "Kup", po jego kliknięciu przesyła się odpowiednią informację do callbacku, który pobiera z props pod nazwą `onBuy`.  **Nie zapomnij sprawdzić czy ten atrybut został odpowiednio przekazany i jest funkcją.** Wywołanie callbacku ma się odbyć za argumentem pobieranym z tytułu przekazanego w props (`title`).
  
  `Shop` ma mieć następującą strukturę:
  
