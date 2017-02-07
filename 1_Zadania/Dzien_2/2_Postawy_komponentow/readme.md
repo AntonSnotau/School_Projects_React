@@ -15,15 +15,15 @@
 
 ### Pierwszy komponent  (~ 5min - 10min)
 
-Stwórz komponent wyszukiwaki.
+Stwórz komponent wyszukiwarki.
 
 Powinien on posiadać jedno pole tekstowe `input` i obok przycisk `button` "Wyszukaj".
 
-Póki co komponent ten nie ma nic robić. Wyrenderuj go na stronie.
+Póki co, komponent ten ma nic więcej nie robić. Wyrenderuj go na stronie.
 
 **Zadanie wykonaj w dwóch wersjach:**
-- **Najpierw komponentem w wersji funkcyjnej**
-- **Oraz tym samym komponentem w wersji zbudowanej z klasy ES6**
+- **Najpierw z komponentem w wersji funkcyjnej**
+- **Oraz z tym samym komponentem w wersji zbudowanej z klasy ES6**
 
 ## Zadania do samodzielnego wykonania
 
@@ -36,8 +36,8 @@ Powinien on składać się z licznika polubień oraz przycisku do kliknięcia, �
 Póki co, komponent ten ma nic więcej nie robić. Wyrenderuj go na stronie.
 
 **Zadanie wykonaj w dwóch wersjach:**
-- **Najpierw komponentem w wersji funkcyjnej**
-- **Oraz tym samym komponentem w wersji zbudowanej z klasy ES6**
+- **Najpierw z komponentem w wersji funkcyjnej**
+- **Oraz z tym samym komponentem w wersji zbudowanej z klasy ES6**
 
 ### Zadanie 2 (~ 5min - 10min)
 
