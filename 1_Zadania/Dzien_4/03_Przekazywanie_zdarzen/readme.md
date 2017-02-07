@@ -17,9 +17,9 @@
 
 Stwórz komponent `ButtonCounter` oraz komponent `ButtonToClick`.
 
-`ButtonToClick` zawiera `div` oraz przycisk `button`, po kliknięciu którego przesyła odpowiednią informację do callbacku, który pobiera z props pod nazwą `onClick`. **Nie zapomnij sprawdzić czy ten atrybut został odpowiednio przekazany i jest funkcją.**
+`ButtonToClick` zawiera `div` oraz przycisk `button`, po kliknięciu którego jest przesyłana odpowiednia informacja do callbacku, który pobiera z props atrybut pod nazwą `onClick`. **Nie zapomnij sprawdzić czy ten atrybut został odpowiednio przekazany i jest funkcją.**
 
-`BtnCounter` wyświetla `div`, a w nim `h1` oraz 3 przyciski `ButtonToClick`. W `h1` początkowo wyświetla 0, ma tam wyświetlać łącznie ile razy zostały kliknięte przyciski.
+`ButtonCounter` wyświetla `div`, a w nim `h1` oraz 3 przyciski `ButtonToClick`. W `h1` ma być na początku wyświetlane 0 - docelowo ma tam się wyświetlać ile razy (łącznie) zostały kliknięte przyciski.
 
 Wyrenderuj i przetestuj swój komponent.
 
