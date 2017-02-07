@@ -4,7 +4,7 @@
 
 ### Przygotuj działające środowisko React  (~ 10min - 15min)
 
-Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 
 Pamiętaj o:
 - ```npm init```
