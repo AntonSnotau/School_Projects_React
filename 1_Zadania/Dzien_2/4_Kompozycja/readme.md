@@ -2,7 +2,7 @@
 
 ### Przygotowanie
 
-> Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
+> Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
 > 
 > Pamiętaj o:
 > - ```npm init```
@@ -42,7 +42,7 @@ Wyrenderuj na stronie komponent `ShopItem` podając w atrybutach do props przyk�
 
 **Pamiętaj, aby zbudować jeszcze główny komponent `App`, a w nim wykorzystywać komponenty budowane w ćwiczeniach. Renderuj na stronie główny komponent `App`.**
 
-**Zadanie wykonaj tylko komponentami w wersji zbudowanej z klas ES6**
+**Zadanie wykonaj tylko z komponentami w wersji zbudowanej z klas ES6**
 
 ## Zadania do samodzielnego wykonania
 
@@ -82,7 +82,7 @@ Wyrenderuj go na stronie podając w atrybucie do props następujący atrybut `me
 ```
 **Pamiętaj, aby zbudować jeszcze główny komponent `App`, a w nim wykorzystywać komponenty budowane w ćwiczeniach. Renderuj na stronie główny komponent `App`.**
 
-**Zadanie wykonaj tylko komponentami w wersji zbudowanej z klas ES6**
+**Zadanie wykonaj tylko z komponentami w wersji zbudowanej z klas ES6**
 
 ### Zadanie 2 (~ 10min - 15min)
 
@@ -91,5 +91,5 @@ W pliku `js/zadanie02.jsx` jest stworzony komponent Chat. Podziel go według teg
  ![Schemat dla zadania 2](img/zadanie02.png "Schemat dla zadania 2")
 
 **Zadanie wykonaj w dwóch wersjach:**
-- **Najpierw komponentem w wersji funkcyjnej**
-- **Oraz tym samym komponentem w wersji zbudowanej z klasy ES6**
+- **Najpierw z komponentem w wersji funkcyjnej**
+- **Oraz z tym samym komponentem w wersji zbudowanej z klasy ES6**
