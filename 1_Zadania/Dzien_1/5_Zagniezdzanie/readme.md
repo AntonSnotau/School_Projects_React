@@ -27,7 +27,7 @@ Następnie za pomocą React wyrenderuj w elemencie o id ```app``` element ```div
 
 ### Zadanie 1 (~ 10min - 15min)
 
-W pliku `js/zadanie01.js` znajduje się obiekt reprezentujący osobę. Zaimportuj go do pliku `js/app.jsx` np. za pomocą:
+W pliku `js/zadanie01.js` znajduje się obiekt reprezentujący osobę. Zaimportuj go do pliku `js/zadanie01.jsx` np. za pomocą:
 
 ```import person from './zadanie01';```
 
