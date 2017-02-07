@@ -100,5 +100,5 @@ Wyrenderuj go na stronie podając w atrybucie do props następujący atrybut `me
 
 
 **Zadanie wykonaj w dwóch wersjach:**
-- **Najpierw komponentem w wersji funkcyjnej**
-- **Oraz tym samym komponentem w wersji zbudowanej z klasy ES6**
+- **Najpierw z komponentem w wersji funkcyjnej**
+- **Oraz z tym samym komponentem w wersji zbudowanej z klasy ES6**
