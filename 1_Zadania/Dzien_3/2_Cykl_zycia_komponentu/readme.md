@@ -36,7 +36,7 @@ Stwórz komponent `LifeCyclesTester`.
 
 Komponent ma wypisywać w konsoli, że np. "komponent będzie zamontowany", "komponent został zamontowany", "komponent będzie aktualizowany" itp., dla **wszystkich znanych Ci typów metod cyklu życia**.
 
-Komponent ma przyjmować do `prop` tekst do wyświetlenia (`text`). Ma go wyrenderować w elemencie `h1`.
+Komponent ma przyjmować do `props` tekst do wyświetlenia (`text`). Ma go wyrenderować w elemencie `h1`.
 
 Wyrenderuj swój komponent bezpośrednio korzystając z `ReactDOM.render()`, ustawiając Twojemu komponentowi `text` na "Test 1".
 
