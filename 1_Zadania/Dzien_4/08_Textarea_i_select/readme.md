@@ -19,7 +19,7 @@ Stwórz komponent `TextField`.
 
 Ma renderować element `div`, a w nim elementy `textarea` i `select`.
 
-Podczas wpisywania tekst ma się na żywo pokazywać w elemencie `span` liczba wpisanych znaków.
+Podczas wpisywania tekst ma się na żywo pokazywać w `textarea` a w elemencie `span` liczba wpisanych znaków.
 
 Jeżeli długość tekstu przekroczy 100 znaków, to zablokuj wpisywanie. **Zrób to w callbacku zdarzenia, nie przez atrybut maxlength.**
 
