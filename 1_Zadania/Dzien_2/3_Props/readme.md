@@ -48,8 +48,8 @@ Powinien on wyświetlać w elemencie `h1` sumę wszystkich podanych liczb. Może
 Wyrenderuj go na stronie podając w atrybucie do props przykładową tablicę liczb.
 
 **Zadanie wykonaj w dwóch wersjach:**
-- **Najpierw komponentem w wersji funkcyjnej**
-- **Oraz tym samym komponentem w wersji zbudowanej z klasy ES6**
+- **Najpierw z komponentem w wersji funkcyjnej**
+- **Oraz z tym samym komponentem w wersji zbudowanej z klasy ES6**
 
 ### Zadanie 3 (~ 10min)
 
