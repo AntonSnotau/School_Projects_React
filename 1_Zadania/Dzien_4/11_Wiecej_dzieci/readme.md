@@ -13,32 +13,51 @@
 
 ## Zadanie rozwiązywane z wykładowcą
 
-### Dzieci i wnuki (~ 5min - 15min)
+### Dzieci i wnuki (~ 5min - 10min)
 
-Stwórz komponenty `ParentComponent`, `ChildComponent` oraz `GrandchildComponent`.
+Stwórz komponent `Email`. Jego struktura ma być następująca:
 
-Niech `ParentComponent` renderuje `ChildComponent`, przekazując mu jako dzieci swoje dzieci.
+```HTML
+<div>
+    <h1>{subject}</h1>
+    <div>{body}<hr />{footer}</div>
+    <pre>{textBody}<hr />{footer}</pre>
+</div>
+```
 
-`ChildComponent` renderuje `GrandchildComponent`, przekazując mu jako dzieci swoje dzieci.
- 
- `GrandchildComponent` po prostu wyświetla swoje dzieci.
+Komponent powinien przyjmować przez props:
+- `subject`, który wstawia do nagłówka;
+- `body`, który wstawia do wewnętrznego `div`;
+- `footer`, który wstawia do obu elementów `footer`;
+- `textBoxy`, który wstawia do elementu `pre`.
 
-Wyrenderuj i przetestuj swój komponent, za pomocą takiej konstrukcji:
+Wyrenderuj i przetestuj swój komponent, używając takiej konstrukcji:
 ```JSX
-<ParentComponent>
-    <h1>To działa!</h1>
-</ParentComponent>
+<Email
+    subject = {
+        <span>Witaj, oto treść maila</span>
+    }
+    body = {
+        <h1>Promocja z e-maila!</h1>
+        <hr />
+        <p>Witaj, oto Twój nowy e-mail...</p>
+    }
+    textBody = {
+        <p>Promocja z e-maila!</p>
+        <p>Witaj, oto Twój nowy e-mail...</p>
+    }
+    footer = {
+        <p>Mail by my
+          <a href="http://example.com/unsubscripe">Kliknij tutaj, aby się wypisać</a>
+        </p>
+    }
+/>
 ```
 
-Kod ten powinien wyświetlić taką strukturę:
-```
--- ParentComponent
-    |-- ChildComponent
-          |-- GrandchildComponent
-                |-- <h1>To działa!</h1>
-```
+Sprawdź, czy została poprawnie wygenerowana strona.
 
 **Pamiętaj, aby zbudować jeszcze główny komponent `App`, a w nim wykorzystywać komponenty budowane w ćwiczeniach. Renderuj na stronie główny komponent `App`.**
+
 
 ## Zadania do samodzielnego wykonania
 
