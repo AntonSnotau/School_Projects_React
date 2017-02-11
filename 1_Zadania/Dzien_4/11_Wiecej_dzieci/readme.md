@@ -13,7 +13,7 @@
 
 ## Zadanie rozwiązywane z wykładowcą
 
-### Dzieci i wnuki (~ 5min - 10min)
+### Szablon e-mail (~ 5min - 10min)
 
 Stwórz komponent `Email`. Jego struktura ma być następująca:
 

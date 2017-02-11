@@ -13,7 +13,7 @@
 
 ## Zadanie rozwiązywane z wykładowcą
 
-### Zagnieżdżone ścieżki (~ 5min - 15min)
+### Zaawansowane ścieżki (~ 5min - 15min)
 
 Stwórz aplikację React, w której znajduje się następujący routing:
 - `/` - ścieżka główna, z powitaniem;
