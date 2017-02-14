@@ -93,3 +93,16 @@ W pliku `js/zadanie02.jsx` jest stworzony komponent Chat. Podziel go według teg
 **Zadanie wykonaj w dwóch wersjach:**
 - **Najpierw z komponentem w wersji funkcyjnej**
 - **Oraz z tym samym komponentem w wersji zbudowanej z klasy ES6**
+
+
+### Zadanie 3 (~ 10min - 15min)
+
+Stwórz komonent `Button`, który składa się z przycisku `button`. przyjmuje on przez props właściwość `text`, która jest wyświetlana na przycisku.
+
+Stwórz komponent `Message`, który składa się z dwóch komponentów `Button` (jeden z tekstem "Tak", drugi "Nie") oraz tekstem kompunikatu w elemencie `p`. Tekst komunikatu przyjmuje przez props jako `messageText`.
+
+Następnie korzystając ze stworzonych komponentów zbuduj **główny komponent `App`**, który buduje stronę, na której są dwa komunikaty (treść dowolna), przycisk "Zaloguj" i przycisk "Zarejestruj". Sposób poukładania jest dowolny.
+
+**Zadanie wykonaj w dwóch wersjach:**
+- **Najpierw z komponentem w wersji funkcyjnej**
+- **Oraz z tym samym komponentem w wersji zbudowanej z klasy ES6**
