@@ -25,8 +25,6 @@ Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
 * 3_Workshops
     * Tutaj znajdują się warsztaty.
 
-* 4_Zadania_domowe
-    * Te zadania wykonaj samodzielnie w domu. Będą one sprawdzane przez mentora. Pamiętaj, aby każde zadanie było w funkcji i zwracało wartości opisane w jego tresci. Zadania dodatkowe są dla chętnych i ambitnych. Ty też jesteś, prawda? :). Zadania dodatkowe zrób w miarę możliwości, możesz je dosłać w każdej chwili. Zapytaj mentora do kiedy musisz oddać zadania podstawowe.
 
 Poszczególne zadania rozwiązuj w odpowiednich plikach.
 
