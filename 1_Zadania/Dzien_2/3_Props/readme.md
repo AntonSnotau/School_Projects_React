@@ -3,7 +3,7 @@
 ### Przygotowanie
 
 > Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
-> 
+>
 > Pamiętaj o:
 > - ```npm init```
 > - Zainstalowaniu odpowiednich modułów
@@ -69,7 +69,7 @@ Obiekty mają być w takiej formie:
 
 ```JavaScript
 {
-    url     :   'adres_odnośnika'
+    url     :   'adres_odnośnika',
     text    :   'tekst linku'
 }
 ```

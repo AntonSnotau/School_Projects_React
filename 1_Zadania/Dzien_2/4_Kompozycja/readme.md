@@ -3,7 +3,7 @@
 ### Przygotowanie
 
 > Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
-> 
+>
 > Pamiętaj o:
 > - ```npm init```
 > - Zainstalowaniu odpowiednich modułów
@@ -51,7 +51,7 @@ Wyrenderuj na stronie komponent `ShopItem` podając w atrybutach do props przyk�
 Wykorzystaj zadanie zrobione z wykładowcą.
 
 Stwórz komponent o nazwie `ShopList`. Niech przyjmuje on w `props` tablicę obiektów z elementami koszyka.
-                                      
+
 Obiekty mają być w takiej formie:
 
 ```JavaScript
@@ -68,7 +68,7 @@ Wyrenderuj go na stronie podając w atrybucie do props następujący atrybut `me
 [
     {
         title   :   'Mysz komputerowa',
-        image   :   'https://upload.wikimedia.org/wikipedia/commons/a/aa/3-Tastenmaus_Microsoft.jpg'
+        image   :   'https://upload.wikimedia.org/wikipedia/commons/c/c5/Red_computer_mouse.jpg'
     },
     {
         title   :   'Klawiatura',

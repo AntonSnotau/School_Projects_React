@@ -3,7 +3,7 @@
 ### Przygotowanie
 
 > Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
-> 
+>
 > Pamiętaj o:
 > - ```npm init```
 > - Zainstalowaniu odpowiednich modułów
@@ -22,4 +22,4 @@ Skompiluj plik JSX do JS i uruchom swoją stronę, sprawdź działanie.
 
 Następnie otwórz w edytorze plik `js/out.js`, korzystając z wyszukiwania (`Ctrl+F`) poszukaj ciągu `JSX a JS`, aby zlokalizować Twój kawałek kodu.
 
-Czy jesteś w stanie powiedzieć, który z etapów reprezentuje kod (weź pod uwagę, że może być on nieco zaciemniony przez użycie Webpack)? Jakie będą kolejne etapy aż do wyświetlenia Twojego diva na stronie?
+Czy jesteś w stanie powiedzieć, który z etapów reprezentuje kod (weź pod uwagę, że może być on nieco zaciemniony przez użycie Webpack). Jakie będą kolejne etapy aż do wyświetlenia Twojego diva na stronie?

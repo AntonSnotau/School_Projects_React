@@ -3,7 +3,7 @@
 ### Przygotowanie
 
 > Stwórz w pełni działające środowisko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
-> 
+>
 > Pamiętaj o:
 > - ```npm init```
 > - Zainstalowaniu odpowiednich modułów
@@ -16,18 +16,18 @@
 ### Dodawanie liczb użytkownika  (~ 10min)
 
 > Do wykonania tego i kolejnych zadań będzie Ci potrzebna funkcja ```prompt(text)```.
-> 
+>
 > Jest to funkcja wbudowana w przeglądarkę, która wyświetli okienko pozwalające wpisać dowolną wartość użytkownikowi. Funkcja wyświetli informację zawartą w parametrze `text`, kiedy użytkownik wprowadzi i zatwierdzi tekst, funkcja go zwróci.
 
-Po załadowaniu się strony wyświetl użytkownikowi dwa razy ```propmt(text)```, zachęcając do podania liczby A i liczy B. Odpowiedź przechowuj w zmiennej. Nie zapomnij o użyciu ```parseInt(str)```, aby zmienić wartość typu string w zmienną typu number.
+Po załadowaniu się strony wyświetl użytkownikowi dwa razy ```prompt(text)```, zachęcając do podania liczby A i liczy B. Odpowiedź przechowuj w zmiennej. Nie zapomnij o użyciu ```Number(str)```, aby zmienić wartość typu string w zmienną typu number.
 
-Następnie za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```, w którym będzie się wyświetlał wynik dodawania liczby A i B. Dodawanie wykonaj bezpośrednio w wyrażeniu w tagu JSX. 
+Następnie za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```, w którym będzie się wyświetlał wynik dodawania liczby A i B. Dodawanie wykonaj bezpośrednio w wyrażeniu w tagu JSX.
 
 ## Zadania do samodzielnego wykonania
 
 ### Zadanie 1 (~ 5min - 10min)
 
-Za pomocą ```prompt()``` przyjmij rok urodzenia użytkownika. Odpowiedź przechowuj w zmiennej. Nie zapomnij o użyciu ```parseInt(str)```, aby zmienić wartość typu string w zmienną typu number.
+Za pomocą ```prompt()``` przyjmij rok urodzenia użytkownika. Odpowiedź przechowuj w zmiennej. Nie zapomnij o użyciu ```Number(str)```, aby zmienić wartość typu string w zmienną typu number.
 
 Następnie za pomocą metody ```(new Date()).getFullYear()``` pobierz aktualny rok.
 
@@ -39,14 +39,14 @@ W pliku `js/zadanie02.js` znajduje się obiekt reprezentujący osobę. Zaimportu
 
 ```import person from './zadanie02';```
 
-Następnie za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```, w którym będzie się wyświetlał tytuł, imię, nazwisko oraz wiek tej osoby. Nazwy tych właściwości obiektu znajdziesz w importowanym pliku. 
+Następnie za pomocą React wyrenderuj w elemencie o id ```app``` element ```div```, w którym będzie się wyświetlał tytuł, imię, nazwisko oraz wiek tej osoby. Nazwy tych właściwości obiektu znajdziesz w importowanym pliku.
 
 ### Zadanie 3 (~ 15min - 20min)
 
 Stwórz prosty kalkulator, który liczy wynik dodawania, odejmowania, mnożenia lub dzielenia.
 
 Zmmodyfikuj zadanie z wykładowcą w ten sposób, aby wyświetlać jeszcze jeden ```prompt()```, który ma pobierać jeden ze znaków: `+`, `-`, `*` lub `/` - odpowiada on operacjom matematycznym jakie zostaną wykonane dla liczb A i B.
- 
+
  Zadanie wykonaj w ten sposób, aby w zależności od operacji był renderowany inny element: dla dodwania element `h1`, dla odejmowania element `h2`, dla mnożenie element `h3`, a dla dzielenia element `h4`. Operacje matematyczne wykonuj bezpośrednio w wyrażeniu w danym tagu JSX.
 
 ### Zadanie 4 (~ 10min - 15min)
@@ -69,4 +69,4 @@ Przyda Ci się właściwość ```length``` oraz metoda ```join(separator)``` tab
 
 Przyjmij za pomocą ```prompt()``` informację o wieku użytkownika.
 
-Jeżeli wiek będzie poniżej 18 lat to wyświetl element ```div``` o id `youth`, w przeciwnym wypadku element ```div``` o id `adult`.
+Jeżeli wiek będzie poniżej 18 lat to wyświetl element ```div``` o id `youth`, w przeciwnym wypadku element ```div``` o id `adult`. Wstaw wpisany wiek wewnątrz diva.
