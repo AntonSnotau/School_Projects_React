@@ -3,10 +3,21 @@ import ReactDOM from 'react-dom';
 
 document.addEventListener('DOMContentLoaded', function(){
     //Nie modyfikuj kodu powyżej
-
-    const redDiv = <div></div>;
-    const greenDiv = <div></div>;
-    const blueDiv = <div></div>;
+    const red = {
+      height: '100px',
+      backgroundColor: 'red'
+    };
+    const green = {
+      height: '100px',
+      backgroundColor: 'green'
+    };
+    const blue = {
+      height: '100px',
+      backgroundColor: 'blue'
+    };
+    const redDiv = <div style={red}></div>;
+    const greenDiv = <div style={green}></div>;
+    const blueDiv = <div style={blue}></div>;
 
     //Nie modyfikuj kodu poniżej
     ReactDOM.render(

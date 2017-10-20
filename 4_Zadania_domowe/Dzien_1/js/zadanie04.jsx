@@ -1,3 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 document.addEventListener('DOMContentLoaded', function(){
-    //Tutaj umieść kod
+  const colors = 'yellow';
+    ReactDOM.render(
+        <div style={{color: colors}}>{ colors }</div>,
+        document.getElementById('app')
+    );
 });

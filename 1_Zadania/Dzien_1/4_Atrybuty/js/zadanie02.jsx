@@ -7,9 +7,22 @@ document.addEventListener('DOMContentLoaded', function(){
         return Math.round( Math.random() * 9 + 1 );
     }
     //Nie modyfikuj kodu powyżej
-
+    const a = genNumber();
+    const b = genNumber();
+    const ask = prompt('Jaki jest wynik dodawania tych liczb: ' + a + ' i ' + b);
+    const sum = a + b;
+    let checked;
+    let st;
+    if (ask == sum) {
+      checked = 'Odpowiedź poprawna!';
+      st = {backgroundColor: 'green'};
+    }
+    else {
+      checked = 'Odpowiedź błedna :(';
+      st = {backgroundColor: 'red'};
+    };
     ReactDOM.render(
-        <h1>Hello, World!</h1>,
+        <div style={ st }>{ checked }</div>,
         document.getElementById('app')
     );
 });

@@ -1,16 +1,22 @@
 document.addEventListener('DOMContentLoaded', function(){
-    function UpperCaseText(props){
-        return <div>
+  class UpperCaseText extends React.Component {
+    render() {
+      return (
+        <div>
             {props.text.toUpperCase()}
         </div>
+      );
     }
-
-    function App(props){
-        return <div>
-            <UpperCaseText text="Ala ma kota!" />
-        </div>;
+  }
+    class App extends React.Component {
+      render() {
+        return (
+          <div>
+              <UpperCaseText text="Ala ma kota!" />
+          </div>
+        );
+      }
     }
-
     ReactDOM.render(
         <App/>,
         document.getElementById('app')

@@ -2,8 +2,32 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 document.addEventListener('DOMContentLoaded', function(){
+  class ShowMore extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        check: true
+      }
+    }
+    render(){
+      return(
+        <div>
+
+        </div>
+      )
+    }
+  }
+  class App extends React.Component {
+    render(){
+      return(
+        <ShowMore>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis enim eget iaculis fermentum. Nulla facilisi. Morbi auctor quis leo ut efficitur. Duis a nulla sed nunc vestibulum condimentum ac vitae lorem. Vestibulum at ornare lacus, in euismod diam. Fusce varius, justo convallis varius elementum, quam felis molestie purus, accumsan imperdiet lacus nulla sed nunc. Suspendisse efficitur risus vel ante pharetra cursus.</p>
+        </ShowMore>
+      )
+    }
+  }
     ReactDOM.render(
-        <h1>Hello, World!</h1>,
+        <App/>,
         document.getElementById('app')
     );
 });

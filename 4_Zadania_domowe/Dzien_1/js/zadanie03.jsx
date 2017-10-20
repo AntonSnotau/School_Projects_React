@@ -1,3 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 document.addEventListener('DOMContentLoaded', function(){
-    //Tutaj umieść kod
+    const rainbow = ['red', 'green', 'blue', 'yellow', 'pink'];
+    ReactDOM.render(
+      <div>{rainbow.join('\n')} </div>,
+        document.getElementById('app')
+    );
 });

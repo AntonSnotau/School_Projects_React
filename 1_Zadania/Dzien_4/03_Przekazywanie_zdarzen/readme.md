@@ -3,7 +3,7 @@
 ### Przygotowanie
 
 > Stwórz w pełni działające środowiko, które pozwoli Ci pisać pliki JSX, skompilować je do plików JS i uruchomić działającą aplikację React.
-> 
+>
 > Pamiętaj o:
 > - ```npm init```
 > - Zainstalowaniu odpowiednich modułów
@@ -30,11 +30,11 @@ Wyrenderuj i przetestuj swój komponent.
 ### Zadanie 1 (~ 15min - 20min)
 
 Stwórz komponent `Shop` oraz komponent `ShopItem`.
- 
+
  `ShopItem` zawiera `div`, a w nim `h1`, którego zawartość jest pobierana z props `title`. W `div` znajduje się też przycisk z napisem "Kup", po jego kliknięciu przesyła się odpowiednią informację do callbacku, który pobiera z props pod nazwą `onBuy`.  **Nie zapomnij sprawdzić czy ten atrybut został odpowiednio przekazany i jest funkcją.** Wywołanie callbacku ma się odbyć za argumentem pobieranym z tytułu przekazanego w props (`title`).
- 
+
  `Shop` ma mieć następującą strukturę:
- 
+
  ```JSX
     <div>
         <ShopItem title="skarpetki" />
